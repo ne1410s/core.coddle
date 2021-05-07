@@ -38,7 +38,7 @@
   "homepage": "https://github.com/ne1410s/core.codl#readme",
   "devDependencies": {
     "chai": "^4.3.4",
-    "mocha": "^8.3.2",
+    "mocha": "^8.4.0",
     "prettier": "^2.2.1",
     "rimraf": "^3.0.2",
     "rollup": "^2.47.0",
