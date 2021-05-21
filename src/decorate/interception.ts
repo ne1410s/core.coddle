@@ -5,8 +5,10 @@ export abstract class Interception {
    * Calls a custom function each with new instance created.
    * @param fn A custom function.
    */
-  public static readonly init = <T>(fn: (o: any) => void) => (c: Ctor<T>) =>
-    Interception.expose(c, fn);
+  public static readonly init =
+    <T>(fn: (o: any) => void) =>
+    (c: Ctor<T>) =>
+      Interception.expose(c, fn);
 
   /**
    * Provides an initial / default value.
@@ -58,6 +60,6 @@ export abstract class Interception {
     };
 
     retVal.prototype = ctor.prototype;
-    return (retVal as unknown) as Ctor<T>;
+    return retVal as unknown as Ctor<T>;
   };
 }
