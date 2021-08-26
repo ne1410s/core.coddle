@@ -38,10 +38,10 @@
   "homepage": "https://github.com/ne1410s/core.codl#readme",
   "devDependencies": {
     "chai": "^4.3.4",
-    "mocha": "^9.0.3",
+    "mocha": "^9.1.0",
     "prettier": "^2.3.2",
     "rimraf": "^3.0.2",
-    "rollup": "^2.56.2",
+    "rollup": "^2.56.3",
     "rollup-plugin-typescript2": "^0.30.0",
     "typescript": "^4.3.5"
   },
